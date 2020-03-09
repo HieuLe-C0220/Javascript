@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Tính điểm trung bình</title>
-    <script src="tinhdiemtrungbinh.js"></script>
 </head>
 <body>
 <h1>Tính điểm trung bình môn học</h1>
-<form>
-    <label for="name">Họ và tên: </label>
-    <input id="name" name="name"><br/><br/>
-    <label for="physical">Điểm vật lý</label>
-    <input id="physical" name="physical" size="5"/><br/><br/>
-    <label for="chemistry">Điểm hoá học</label>
-    <input id="chemistry" name="chemistry" size="5"/><br/><br/>
-    <label for="biological">Điểm sinh học</label>
-    <input id="biological" name="biological" size="5"/><br/><br/>
-</form>
+Họ và tên:
+<input type="text" id="name"><br/><br/>
+Điểm vật lý:
+<input type="text" id="physical" size="5"/><br/><br/>
+Điểm hoá học:
+<input type="text" id="chemistry" size="5"/><br/><br/>
+Điểm sinh học:
+<input type="text" id="biological" size="5"/><br/><br/>
 <button onclick="ketQua()">Kết quả</button>
 <p id="total">Tổng điểm:</p>
 <p id="average">Điểm trung bình:</p><br/>
+<script src="tinhdiemtrungbinh.js"></script>
 </body>
 </html>
